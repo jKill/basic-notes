@@ -12,6 +12,7 @@
 - 成功则持有该Mutex，失败则进行spin自旋，不断发起mutex gets，直到获得mutex或者达到spin_count限制
 - 根据工作模式选择yield还是sleep
 - 若达到sleep限制或者被唤醒或者完成yield，重复上述3步，直到获得mutex。
+
 #### 锁消除
 1、如果是线程封闭的锁对象，锁对象只能由一个线程访问，JVM会通过优化去掉这个获取锁的动作
 
