@@ -75,3 +75,6 @@
 
 #### 2021-05-11
 - [复习巩固]()
+
+#### 2021-05-12
+- [Java 中 int 的最大值是多少？](https://github.com/jKill/basic-notes/blob/master/2021-05-12/Java%20%E4%B8%AD%20int%20%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%E6%98%AF%E5%A4%9A%E5%B0%91%EF%BC%9F.md)
