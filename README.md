@@ -78,3 +78,6 @@
 
 #### 2021-05-12
 - [Java 中 int 的最大值是多少？](https://github.com/jKill/basic-notes/blob/master/2021-05-12/Java%20%E4%B8%AD%20int%20%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%E6%98%AF%E5%A4%9A%E5%B0%91%EF%BC%9F.md)
+
+#### 2021-05-13
+- [MySQL 为什么使用 B+ 树来作索引，对比 B 树它的优点和缺点是什么？](https://github.com/jKill/basic-notes/blob/master/2021-05-13/MySQL%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%20B%2B%20%E6%A0%91%E6%9D%A5%E4%BD%9C%E7%B4%A2%E5%BC%95%EF%BC%8C%E5%AF%B9%E6%AF%94%20B%20%E6%A0%91%E5%AE%83%E7%9A%84%E4%BC%98%E7%82%B9%E5%92%8C%E7%BC%BA%E7%82%B9%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.md)
