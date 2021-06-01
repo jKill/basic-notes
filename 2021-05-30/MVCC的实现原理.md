@@ -1,4 +1,4 @@
-##简述 MySQL MVCC 的实现原理
+## MySQL MVCC 的实现原理
 MySQL的4个隔离级别：读未提交，读提交，可重复读，串行化。事务的隔离就是通过MVCC（multiversion concurrency control，多版本并发控制）实现的。举个例子，有这样的一张表，按时间顺序执行以下两个事务：
 
 ```
