@@ -22,11 +22,12 @@ Java的synchronized和Lock都是可重入的，已经获得锁的线程再次进
 - ReentrantLock基于AQS实现线程安全，核心是继承了AQS的Sync类，通过实现AQS的acquire()和release()方法实现lock()和unlock()。
 - 使用AQS的volatile int state记录当前同步状态，0表示没有锁定；>0的时候表示被锁定，此时state的值表示锁重入的次数。
 - 使用AQS的volatile int waitStatus记录任务在队列的状态。
-- 默认实现为非公平锁，通过Sync的子类NonFairSync实现，新任务会先尝试”插队“，CAS把自己修改为队列头部节点；公平锁底层实现为FairSync，队列节点严格遵循先进先出。
+- 默认实现为非公平锁，通过Sync的子类NonFairSync实现，新任务会先尝试”插队“，CAS把state改为1，修改成功则拿到锁；公平锁底层实现为FairSync，队列节点严格遵循先进先出。
 - 相对synchronized，Lock可以通过lockInterruptibly()方法以响应中断的方式获取锁。
 
-#### 获取锁的流程（非公平独占模式）：
-1、先CAS尝试把state修改为1，成功则拿到锁返回；
-2、失败则CAS把节点添加到等待队列（双向链表）尾部等待；
-3、判断前驱节点是否头节点，是则尝试获取一次锁；
-4、如果获取锁失败获取前驱节点不是头节点，则根据上一个节点的waitStatus决定是否挂起当前挂起线程。
+#### 获取锁的流程（非公平独占模式）
+
+- 1、先CAS尝试把state修改为1，成功则拿到锁返回；
+- 2、失败则CAS把节点添加到等待队列（双向链表）尾部等待；
+- 3、判断前驱节点是否头节点，是则尝试获取一次锁；
+- 4、如果获取锁失败获取前驱节点不是头节点，则根据上一个节点的waitStatus决定是否挂起当前挂起线程。
