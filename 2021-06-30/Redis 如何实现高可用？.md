@@ -22,6 +22,16 @@ Sentinel根据配置参数优先级```replica-priority```、消费位移replicat
 - 如果```replica-priority```相同，则比较replication offset，选择接收到更多来自master数据的节点。
 - 如果也相同，则选择run ID较小的从节点。
 
+### Sentinel如何选举
+
+- Sentinel执行故障转移成功后，它会广播新的配置，以便其他Sentinel可以更新master(新的)信息。
+- 新的配置带有一个版本号(也叫configuration epoch，配置纪元)。Sentinel不但会在master和从节点之间广播配置，Sentinel之间也互相交流配置的信息。
+- 如果Sentinel收到的配置版本号比本地的大，那么就更新本地配置。
+
+Sentinel之间的配置虽然是点对点传输，但是只要网络连通，他们最终会达成一致。这也是gossip协议的一个实现。
+
+> gossop协议是一个带容错性的最终一致性算法，由于不要求知道所有其他节点，因此不需要中心节点。增减节点也会慢慢达成一致(分布式容错)。但是冗余通信会对网络带宽，CPU带来很大的负担。
+
 ### 自动故障转移(Auto failover)
 一个Redis集群有两个watchdog进程检测错误：
 
