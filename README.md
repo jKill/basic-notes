@@ -8,7 +8,7 @@
 - [Synchronized 关键字底层是如何实现的？它与 Lock 相比优缺点分别是什么？](https://github.com/jKill/basic-notes/blob/master/2021-04-22/Synchronized%E5%85%B3%E9%94%AE%E5%AD%97%26Lock.md)
 
 #### 2021-04-23
-- [JVM 中内存模型是怎样的，简述新生代与老年代的区别？](https://github.com/jKill/basic-notes/blob/master/2021-04-23/JMM%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%26volatile%E5%85%B3%E9%94%AE%E5%AD%97.md)
+- [JMM 中内存模型是怎样的？什么是指令序列重排序？](https://github.com/jKill/basic-notes/blob/master/2021-04-23/JMM%20%E4%B8%AD%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%EF%BC%9F%E4%BB%80%E4%B9%88%E6%98%AF%E6%8C%87%E4%BB%A4%E5%BA%8F%E5%88%97%E9%87%8D%E6%8E%92%E5%BA%8F%EF%BC%9F.md)
 
 #### 2021-04-24
 - [Synchronized，Volatile，可重入锁的不同使用场景及优缺点](https://github.com/jKill/basic-notes/blob/master/2021-04-24/synchronized%26volatile%26%E5%8F%AF%E9%87%8D%E5%85%A5%E9%94%81.md)
@@ -132,3 +132,30 @@
 
 #### 2021-05-30
 - [MySQL MVCC 的实现原理](https://github.com/jKill/basic-notes/blob/master/2021-05-30/MVCC%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.md)
+
+#### 2021-06-06
+- [从输入 URL 到展现页面的全过程](https://github.com/jKill/basic-notes/blob/master/2021-06-06/%E4%BB%8E%E8%BE%93%E5%85%A5%20URL%20%E5%88%B0%E5%B1%95%E7%8E%B0%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%85%A8%E8%BF%87%E7%A8%8B.md)
+
+#### 2021-06-14
+- [ConcurrentHashMap 1.7/1.8区别](https://github.com/jKill/basic-notes/blob/master/2021-06-14/ConcurrentHashMap%201.7-1.8%E5%8C%BA%E5%88%AB.md)
+
+#### 2021-06-22
+- [Redis 如何实现分布式锁？](https://github.com/jKill/basic-notes/blob/master/2021-06-22/Redis%20%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%EF%BC%9F.md)
+
+#### 2021-06-26
+- [简述 Redis 持久化中 RDB 以及 AOF 方案的优缺点](https://github.com/jKill/basic-notes/blob/master/2021-06-26/%E7%AE%80%E8%BF%B0%20Redis%20%E6%8C%81%E4%B9%85%E5%8C%96%E4%B8%AD%20RDB%20%E4%BB%A5%E5%8F%8A%20AOF%20%E6%96%B9%E6%A1%88%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9.md)
+
+#### 2021-06-30
+- [Redis 如何实现高可用？](https://github.com/jKill/basic-notes/blob/master/2021-06-30/Redis%20%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%8F%AF%E7%94%A8%EF%BC%9F.md)
+
+
+#### 2021-07-01
+- [Redis 如何处理热key问题](https://github.com/jKill/basic-notes/blob/master/2021-07-01/%E7%AE%80%E8%BF%B0%20Redis%20%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E7%83%AD%E7%82%B9%20key%20%E8%AE%BF%E9%97%AE.md)
+
+
+#### 2021-07-02
+- [Redis 大key问题](https://github.com/jKill/basic-notes/blob/master/2021-07-02/Redis%20%E5%A4%A7key%E9%97%AE%E9%A2%98.md)
+
+
+#### 2021-07-03
+- [volatile 关键字解决了什么问题，它的实现原理是什么？](https://github.com/jKill/basic-notes/blob/master/2021-07-03/volatile%20%E5%85%B3%E9%94%AE%E5%AD%97%E8%A7%A3%E5%86%B3%E4%BA%86%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98%EF%BC%8C%E5%AE%83%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.md)
