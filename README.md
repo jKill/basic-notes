@@ -1,6 +1,6 @@
 ### Index
 #### 2021-04-21
-- [Java 中垃圾回收机制中如何判断对象需要回收？常见的 GC 回收算法有哪些？](https://github.com/jKill/basic-notes/blob/master/2021-04-21/%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E5%9B%9E%E6%94%B6%26GC%E7%AE%97%E6%B3%95.md)
+- [Java 中垃圾回收机制中如何判断对象需要回收？常见的 GC 回收算法有哪些？](https://github.com/jKill/basic-notes/blob/master/2021-04-21/Java%20%E4%B8%AD%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E9%9C%80%E8%A6%81%E5%9B%9E%E6%94%B6%EF%BC%9F%E5%B8%B8%E8%A7%81%E7%9A%84%20GC%20%E5%9B%9E%E6%94%B6%E7%AE%97%E6%B3%95%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F.md)
 - [HashMap 与 ConcurrentHashMap 的实现原理是怎样的？ConcurrentHashMap 是如何保证线程安全的？](https://github.com/jKill/basic-notes/blob/master/2021-04-21/HashMap%26ConcurrentHashMap.md)
 
 #### 2021-04-22
