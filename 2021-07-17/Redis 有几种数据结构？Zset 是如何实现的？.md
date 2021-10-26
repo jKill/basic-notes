@@ -12,7 +12,7 @@ Redis用C开发，但是没使用C的字符串。而是用SDS结构体保存
 
 ```c
 struct sdshdr {
-      int len;
+    int len;
     int free;
     char buf[];
 }
@@ -28,7 +28,7 @@ struct sdshdr {
 - 空间预分配和惰性释放：当SDS需要扩容时，会分配额外的空间。缩容时不会回收多余的空间，而是用free记录，后面需要append时直接使用free中的空间。
 - 二进制安全：二进制数据并不是规则的字符串，可能包含'\0'。C中'\0'表示字符串结束，但SDS中标志字符串结束的是len属性。
 
-### 字典
+### 哈希
 类似于Java的HashMap，除了Redis本身的数据库，字典也是哈希键的底层实现。
 
 ```c
@@ -53,7 +53,7 @@ Rehash过程如下：
 - 在字典中维护一个```rehashidx```，置为0，表示Rehash开始
 - Rehash期间，每次对字典操作时，程序还顺便把ht[0]在```rehashidx```索引上的所有键值对rehash到ht[1]中，完成后将```rehashidx```+1。全部Rehash完成后，将```rehashidx```置为-1，表示rehash完成。
 
-### 跳表
+### 有序集合
 Zset 是一个有序的链表结构，其底层的数据结构是跳跃表 skiplist，其结构如下：
 
 ```c
@@ -88,7 +88,7 @@ typedef struct zskiplistNode {
 - 红黑树查找和增删性能都与跳表相似。区别是实现不如跳表简单。
 
 ### 压缩列表
-压缩列表 ziplist 是为 Redis 节约内存而开发的，是列表键和字典键的底层实现之一。
+压缩列表 ziplist 是为 Redis 节约内存而开发的，数据量少的时候，是列表、字典和有序集合的底层实现之一。
 
 - 元素较少时，Redis用ziplist存储数据。
 - 元素个数达到一定数量时，列表键ziplist会转化为linkedlist，字典键会把ziplist转化为hashtable。
