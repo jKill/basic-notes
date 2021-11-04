@@ -148,14 +148,53 @@
 #### 2021-06-30
 - [Redis 如何实现高可用？](https://github.com/jKill/basic-notes/blob/master/2021-06-30/Redis%20%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%8F%AF%E7%94%A8%EF%BC%9F.md)
 
-
 #### 2021-07-01
 - [Redis 如何处理热key问题](https://github.com/jKill/basic-notes/blob/master/2021-07-01/%E7%AE%80%E8%BF%B0%20Redis%20%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E7%83%AD%E7%82%B9%20key%20%E8%AE%BF%E9%97%AE.md)
-
 
 #### 2021-07-02
 - [Redis 大key问题](https://github.com/jKill/basic-notes/blob/master/2021-07-02/Redis%20%E5%A4%A7key%E9%97%AE%E9%A2%98.md)
 
-
 #### 2021-07-03
 - [volatile 关键字解决了什么问题，它的实现原理是什么？](https://github.com/jKill/basic-notes/blob/master/2021-07-03/volatile%20%E5%85%B3%E9%94%AE%E5%AD%97%E8%A7%A3%E5%86%B3%E4%BA%86%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98%EF%BC%8C%E5%AE%83%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.md)
+
+#### 2021-07-13
+- [数据库和缓存的一致性](https://github.com/jKill/basic-notes/blob/master/2021-07-13/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%92%8C%E7%BC%93%E5%AD%98%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7.md)
+
+#### 2021-07-14
+- [为什么 Redis 在单线程下能如此快？](https://github.com/jKill/basic-notes/blob/master/2021-07-14/%E4%B8%BA%E4%BB%80%E4%B9%88%20Redis%20%E5%9C%A8%E5%8D%95%E7%BA%BF%E7%A8%8B%E4%B8%8B%E8%83%BD%E5%A6%82%E6%AD%A4%E5%BF%AB%EF%BC%9F.md)
+
+#### 2021-07-15
+- [Redis的缓存淘汰策略有哪些？](https://github.com/jKill/basic-notes/blob/master/2021-07-15/Redis%E7%9A%84%E7%BC%93%E5%AD%98%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F.md)
+
+#### 2021-07-16
+- [数据库和缓存的一致性](https://github.com/jKill/basic-notes/blob/master/2021-07-13/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%92%8C%E7%BC%93%E5%AD%98%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7.md)
+
+#### 2021-07-16
+- [简述 Redis 中如何防止缓存雪崩、缓存击穿和缓存穿透](https://github.com/jKill/basic-notes/blob/master/2021-07-16/%E7%AE%80%E8%BF%B0%20Redis%20%E4%B8%AD%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%E3%80%81%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E5%92%8C%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F.md)
+
+#### 2021-07-17
+- [Redis 有几种数据结构？Zset 是如何实现的？](https://github.com/jKill/basic-notes/blob/master/2021-07-17/Redis%20%E6%9C%89%E5%87%A0%E7%A7%8D%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%9FZset%20%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84%EF%BC%9F.md)
+
+#### 2021-08-31
+- [为表连接设计索引](https://github.com/jKill/basic-notes/blob/master/2021-08-31/%E4%B8%BA%E8%A1%A8%E8%BF%9E%E6%8E%A5%E8%AE%BE%E8%AE%A1%E7%B4%A2%E5%BC%95.md)
+
+#### 2021-09-01
+- [什么是 Spring 容器，有什么作用？](https://github.com/jKill/basic-notes/blob/master/2021-09-01/%E4%BB%80%E4%B9%88%E6%98%AF%20Spring%20%E5%AE%B9%E5%99%A8%EF%BC%8C%E6%9C%89%E4%BB%80%E4%B9%88%E4%BD%9C%E7%94%A8%EF%BC%9F.md)
+
+#### 2021-09-09
+- [TCP 怎么保证可靠传输？](https://github.com/jKill/basic-notes/blob/master/2021-09-09/TCP%20%E6%80%8E%E4%B9%88%E4%BF%9D%E8%AF%81%E5%8F%AF%E9%9D%A0%E4%BC%A0%E8%BE%93%EF%BC%9F.md)
+
+#### 2021-09-11
+- [Netty 的优势和使用场景](https://github.com/jKill/basic-notes/blob/master/2021-09-11/Netty%20%E7%9A%84%E4%BC%98%E5%8A%BF%E5%92%8C%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF.md)
+
+#### 2021-09-16
+- [熔断与限流是如何实现的？](https://github.com/jKill/basic-notes/blob/master/2021-09-16/%E7%86%94%E6%96%AD%E4%B8%8E%E9%99%90%E6%B5%81%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84%EF%BC%9F.md)
+
+#### 2021-09-28
+- [Redis Sentinel可以防止脑裂吗？](https://github.com/jKill/basic-notes/blob/master/2021-09-28/Redis%20Sentinel%E5%8F%AF%E4%BB%A5%E9%98%B2%E6%AD%A2%E8%84%91%E8%A3%82%E5%90%97%EF%BC%9F.md)
+
+#### 2021-10-16
+- [分布式系统中数据一致性相关协议](https://github.com/jKill/basic-notes/blob/master/2021-10-16/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E4%B8%AD%E6%95%B0%E6%8D%AE%E4%B8%80%E8%87%B4%E6%80%A7%E7%9B%B8%E5%85%B3%E5%8D%8F%E8%AE%AE.md)
+
+#### 2021-10-21
+- [MySQL 读写分离](https://github.com/jKill/basic-notes/blob/master/2021-10-21/MySQL%20%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB.md)
