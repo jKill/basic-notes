@@ -6,10 +6,10 @@ Netty 是一个能帮助使用者简单快速地开发网络应用的C-S架构�
 NioEventLoop 方法中，Reactor 线程主要做以下事情
 
 - 首先轮询所有注册到 Reactor 线程对应的 selector 上所有 channel 的 IO 事件。（轮询IO事件）
-- 处理产生网络 IO 事件的 channel。（处理轮询到的事件）
+- 处理产生网络 IO 事件的 channel。（处理就绪的事件）
 - 处理任务队列。（执行任务队列的任务）
 
-### 解决 JDK 的 nio bug
+### 解决老版本 JDK 的 nio bug
 这个 bug 会导致 Selector 一直空轮询，最终 CPU 100%。
 
 - 记录 select 耗时，已判断是否触发了空轮询。
@@ -59,7 +59,10 @@ NioEventLoop 方法中，Reactor 线程主要做以下事情
  * ...
  */
 ```
-FastThreadLocal使用了数组里的index索引来定位元素，比ThreadLocalMap通过哈希定位快一点。在请求频繁时，这个优化的效果就很明显了。
+```FastThreadLocal```使用了数组里的index索引来定位元素，在请求频繁时，这个优化的效果就很明显了。```FastThreadlocal```创建时，通过```AtomicInteger```分配得到唯一的 index。
+
+- 节省了计算哈希值的时间。
+- 避免了哈希冲突。
 
 ### Netty 适用场景
 
