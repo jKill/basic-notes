@@ -198,3 +198,12 @@
 
 #### 2021-10-21
 - [MySQL 读写分离](https://github.com/jKill/basic-notes/blob/master/2021-10-21/MySQL%20%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB.md)
+
+#### 2021-11-08
+- [Netty 线程模型](https://github.com/jKill/basic-notes/blob/master/2021-11-08/Netty%20%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9E%8B.md)
+
+#### 2021-11-08
+- [XSS 攻击与防范](https://github.com/jKill/basic-notes/blob/master/2021-11-15/XSS%20%E6%94%BB%E5%87%BB%E4%B8%8E%E9%98%B2%E8%8C%83.md)
+
+#### 2021-11-15
+- [XSS 攻击与防范](https://github.com/jKill/basic-notes/blob/master/2021-11-15/XSS%20%E6%94%BB%E5%87%BB%E4%B8%8E%E9%98%B2%E8%8C%83.md)
