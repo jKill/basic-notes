@@ -204,3 +204,9 @@
 
 #### 2021-11-15
 - [XSS 攻击与防范](https://github.com/jKill/basic-notes/blob/master/2021-11-15/XSS%20%E6%94%BB%E5%87%BB%E4%B8%8E%E9%98%B2%E8%8C%83.md)
+
+#### 2021-11-26
+- [ElasticSearch 查询流程与分页](https://github.com/jKill/basic-notes/blob/master/2021-11-26/ElasticSearch%20%E6%9F%A5%E8%AF%A2%E6%B5%81%E7%A8%8B%E4%B8%8E%E5%88%86%E9%A1%B5.md)
+
+#### 2021-12-04
+- [Kafka rebalance带来的问题](https://github.com/jKill/basic-notes/commit/d3eea0e180b8b0eca555fc47c04af5d38b5197e6)
