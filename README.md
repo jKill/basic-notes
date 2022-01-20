@@ -177,6 +177,7 @@
 
 #### 2021-08-31
 - [为表连接设计索引](https://github.com/jKill/basic-notes/blob/master/2021-08-31/%E4%B8%BA%E8%A1%A8%E8%BF%9E%E6%8E%A5%E8%AE%BE%E8%AE%A1%E7%B4%A2%E5%BC%95.md)
+- [导致索引失效的场景](https://github.com/jKill/basic-notes/blob/master/2021-08-31/%E5%AF%BC%E8%87%B4%E7%B4%A2%E5%BC%95%E5%A4%B1%E6%95%88%E7%9A%84%E5%9C%BA%E6%99%AF.md)
 
 #### 2021-09-01
 - [什么是 Spring 容器，有什么作用？](https://github.com/jKill/basic-notes/blob/master/2021-09-01/%E4%BB%80%E4%B9%88%E6%98%AF%20Spring%20%E5%AE%B9%E5%99%A8%EF%BC%8C%E6%9C%89%E4%BB%80%E4%B9%88%E4%BD%9C%E7%94%A8%EF%BC%9F.md)
