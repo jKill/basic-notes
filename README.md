@@ -195,6 +195,7 @@
 
 #### 2021-10-16
 - [分布式系统中数据一致性相关协议](https://github.com/jKill/basic-notes/blob/master/2021-10-16/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E4%B8%AD%E6%95%B0%E6%8D%AE%E4%B8%80%E8%87%B4%E6%80%A7%E7%9B%B8%E5%85%B3%E5%8D%8F%E8%AE%AE.md)
+- [ZooKeeper 的 ZAB 算法与 Paxos 的区别是什么？](https://github.com/jKill/basic-notes/blob/master/2021-10-16/ZooKeeper%20%E7%9A%84%20ZAB%20%E7%AE%97%E6%B3%95%E4%B8%8E%20Paxos%20%E7%9A%84%E5%8C%BA%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.md)
 
 #### 2021-10-21
 - [MySQL 读写分离](https://github.com/jKill/basic-notes/blob/master/2021-10-21/MySQL%20%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB.md)
