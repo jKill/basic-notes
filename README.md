@@ -211,4 +211,13 @@
 - [ElasticSearch 查询流程与分页](https://github.com/jKill/basic-notes/blob/master/2021-11-26/ElasticSearch%20%E6%9F%A5%E8%AF%A2%E6%B5%81%E7%A8%8B%E4%B8%8E%E5%88%86%E9%A1%B5.md)
 
 #### 2021-12-04
-- [Kafka rebalance带来的问题](https://github.com/jKill/basic-notes/commit/d3eea0e180b8b0eca555fc47c04af5d38b5197e6)
+- [Kafka rebalance带来的问题](https://github.com/jKill/basic-notes/blob/master/2021-12-04/Kafka%20rebalance%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98.md)
+
+#### 2022-01-15
+- [SpringCloud Gateway 的线程池](https://github.com/jKill/basic-notes/blob/master/2022-01-15/SpringCloud%20Gateway%20%E7%9A%84%E7%BA%BF%E7%A8%8B%E6%B1%A0.md)
+
+#### 2022-02-23
+- [Eureka-Ribbon 与 Consul 的服务发现](https://github.com/jKill/basic-notes/blob/master/2022-02-23/Eureka-Ribbon%20%E4%B8%8E%20Consul%20%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0.md)
+
+#### 2022-04-19
+- [Redis 管道、事务和 lua 脚本的区别](https://github.com/jKill/basic-notes/blob/master/2022-04-19/Redis%20%E7%AE%A1%E9%81%93%E3%80%81%E4%BA%8B%E5%8A%A1%E5%92%8C%20lua%20%E8%84%9A%E6%9C%AC%E7%9A%84%E5%8C%BA%E5%88%AB.md)
