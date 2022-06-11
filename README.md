@@ -167,7 +167,7 @@
 - [Redis的缓存淘汰策略有哪些？](https://github.com/jKill/basic-notes/blob/master/2021-07-15/Redis%E7%9A%84%E7%BC%93%E5%AD%98%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F.md)
 
 #### 2021-07-16
-- [数据库和缓存的一致性](https://github.com/jKill/basic-notes/blob/master/2021-07-13/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%92%8C%E7%BC%93%E5%AD%98%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7.md)
+- [简述 Redis 中如何防止缓存雪崩、缓存击穿和缓存穿透](https://github.com/jKill/basic-notes/blob/master/2021-07-16/%E7%AE%80%E8%BF%B0%20Redis%20%E4%B8%AD%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%E3%80%81%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E5%92%8C%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F.md)
 
 #### 2021-07-16
 - [简述 Redis 中如何防止缓存雪崩、缓存击穿和缓存穿透](https://github.com/jKill/basic-notes/blob/master/2021-07-16/%E7%AE%80%E8%BF%B0%20Redis%20%E4%B8%AD%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%E3%80%81%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E5%92%8C%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F.md)
