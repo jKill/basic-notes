@@ -147,6 +147,7 @@
 
 #### 2021-06-30
 - [Redis 如何实现高可用？](https://github.com/jKill/basic-notes/blob/master/2021-06-30/Redis%20%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E9%AB%98%E5%8F%AF%E7%94%A8%EF%BC%9F.md)
+- [RDB和AOF的工作流程](https://github.com/jKill/basic-notes/blob/master/2021-06-30/RDB%E5%92%8CAOF%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B.md)
 
 #### 2021-07-01
 - [Redis 如何处理热key问题](https://github.com/jKill/basic-notes/blob/master/2021-07-01/%E7%AE%80%E8%BF%B0%20Redis%20%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E7%83%AD%E7%82%B9%20key%20%E8%AE%BF%E9%97%AE.md)
