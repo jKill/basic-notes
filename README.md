@@ -222,3 +222,9 @@
 
 #### 2022-04-19
 - [Redis 管道、事务和 lua 脚本的区别](https://github.com/jKill/basic-notes/blob/master/2022-04-19/Redis%20%E7%AE%A1%E9%81%93%E3%80%81%E4%BA%8B%E5%8A%A1%E5%92%8C%20lua%20%E8%84%9A%E6%9C%AC%E7%9A%84%E5%8C%BA%E5%88%AB.md)
+
+#### 2022-06-12
+- [zxid 如何保证全局唯一递增](https://github.com/jKill/basic-notes/blob/master/2022-06-12/zxid%20%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E5%85%A8%E5%B1%80%E5%94%AF%E4%B8%80%E9%80%92%E5%A2%9E.md)
+
+#### 2022-08-04
+- [MySQL 和 PostgreSQL 的区别](https://github.com/jKill/basic-notes/blob/master/2022-08-04/MySQL%20%E5%92%8C%20PostgreSQL%20%E7%9A%84%E5%8C%BA%E5%88%AB.md)
